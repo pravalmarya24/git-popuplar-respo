@@ -1,0 +1,102 @@
+/* Write your CSS here */
+.repository-list {
+  list-style-type: none;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #f8f8ff;
+  border-width: 0;
+  padding: 20px;
+  height: 370px;
+  width: 300px;
+  margin: 15px;
+}
+
+.card-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  width: 270px;
+  padding: 12px;
+  margin-top: 15px;
+}
+
+.name-heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+  color: #e73959;
+  padding-top: 10px;
+}
+
+.img-size {
+  height: 120px;
+  width: 120px;
+}
+
+.stars-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.star-img-size {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
+
+.star-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.forks-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.forks-img-size {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
+
+.forks-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.issues-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.issues-img-size {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
+
+.issues-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e293b;
+}

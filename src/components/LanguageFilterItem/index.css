@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.language-btn-list {
+  list-style-type: none;
+}
+
+.btn-height {
+  height: 28px;
+  width: 90px;
+  padding: 5px, 5px, 5px, 5px;
+}
+
+.btn-styling {
+  border-width: 0;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #0f172a;
+  cursor: pointer;
+}
+
+.btn-style-change {
+  border-width: 1px;
+  background-color: transparent;
+  border-color: #0284c7;
+  border-radius: 35px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #0284c7;
+  cursor: pointer;
+}
