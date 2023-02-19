@@ -5,7 +5,7 @@ const RepositoryItem = props => {
   const {eachItem} = props
   const {name, starsCount, issuesCount, forksCount, avatarUrl} = eachItem
   return (
-    <div className="card-container">
+    <div className="card-container" data-testid="loader">
       <li className="repository-list">
         <div className="card-item-container">
           <img src={avatarUrl} alt={name} className="img-size" />
